@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>게시글 목록</title>
+<link rel="stylesheet" href="../css/board.css" />
+</head>
+<body>
+<div id="wrapper">
+<form action="../index.html"></form><a href="..index.html"class="float-right">메인으로 가기</a><br/></form>
+<h1 class="text-center">게시글 목록</h1>
+	<table border=1 class="table-border" style="width: 100%">
+		<tr style="height: 25px;">
+			<th class="text-center" style="width: 5%">NO</th>
+			<th class="text-center" style="width: 20%">제목</th>
+			<th class="text-center" style="width: 36%">내용</th>
+			<th class="text-center" style="width: 15%">글쓴이</th>
+			<th class="text-center" style="width: 15%">작성날짜</th>
+			<th class="text-center" style="width: 9%">조회수</th>
+		</tr>
+		<tr style="height: 25px;">
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+		</tr>
+		<tr style="height: 25px;">
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+		</tr>
+		<tr style="height: 25px;">
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+		</tr>
+		<tr style="height: 25px;">
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+		</tr >
+		<tr style="height: 25px;">
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+		</tr>
+	</table>
+</div>
+</body>
+</html>

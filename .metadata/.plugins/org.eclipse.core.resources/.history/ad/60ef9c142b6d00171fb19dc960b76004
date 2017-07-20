@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>BoardWrite</title>
+<link rel="stylesheet" href="../css/board.css" />
+</head>
+<body>
+	<div id="wrapper">
+   <h1 id="title"> 게시글 수정</h1>
+   <a id="go_main"></a>
+   <hr/>
+</div>
+<div id="container" class="margin-auto" style="width: 400px">
+<form action="board_list.html" method="get">
+  <textarea name="message" rows="20" cols="50" style="width: 500px">글을 입력하세요</textarea>
+  <br>
+  <input type="submit">
+</form>
+</div>
+</body>
+</html>

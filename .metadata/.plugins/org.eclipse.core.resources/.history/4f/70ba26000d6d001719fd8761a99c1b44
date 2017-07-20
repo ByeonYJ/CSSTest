@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<style>
+.text-center{text-align: center;}
+.border-black{border: 1px solid black;}
+.width-30pro{width:30%}
+.text-deco-none{text-decoration: none;}
+.table-border{border-collapse: collapse;}
+.margin-auto{margin:0 auto;}
+.list-none{list-style-type:none;}
+.inline-block{display:inline-block}
+.bgcolor-yellow{background-color:yellow;}
+.bgcolor-red{background-color:red;}
+.bgcolor-blue{background-color:blue;}
+.float-right{float:right}
+</style>
+</head>
+<body>
+<div id="wrapper" class="width-100pro">
+<h1 style="text-align: center;">Join Page</h1>
+<a href="..index.html"class="float-right">메인으로 가기</a><br/>
+<hr/>
+</div>
+<div id="container" class="margin-auto" style="width: 400px">
+	<form id="join_form "action="">
+		<fieldset>
+		<legend>Join Information</legend>
+			<span style="width: 100px; display: inline-block;">ID: </span>
+			<input name="id" type="text" placeholder="아이디" /><br />
+			<span style="width: 100px; display: inline-block;">PW: </span>
+			<input name="password" type="password" placeholder="비밀번호"/><br />
+			<span style="width: 100px; display: inline-block;">Name: </span>
+			<input name="name" type="text" placeholder="이름"/><br />
+			<span style="width: 70px; display: inline-block;">생년월일: </span>
+			<input name="birthday" type="date" placeholder="생년월일"/><br />
+			성별: <input type="radio" name="gender" value="male"/> 남자
+			<input type="radio" name="gender" value="female"/> 여자
+			<input type="radio" name="gender" value="female"/> 
+			<br />
+			이메일: <input type="email" name="email"/>
+			<h3>전공</h3>
+			<select name=major"" id="">
+				<option value="computer" >컴퓨터공학</option>
+				<option value="economics" selected="selected">경제학</option>
+				<option value="tourism">관광학</option>
+				<option value="art">미술학</option>
+			</select><br />
+			<h3>수강과목</h3>
+			<input type="checkbox" name="subject" value="java" checked/>자바<br />
+			<input type="checkbox" name="subject" value="c" checked/>C언어<br />
+			<input type="checkbox" name="subject" value="html"/>HTML<br />
+			<input type="checkbox" name="subject" value="css"/>CSS<br />
+			<input type="checkbox" name="subject" value="javascript"/>자바스크립트<br />
+			<input type="checkbox" name="subject" value="sql"/>SQL<br />
+			<input type="checkbox" name="subject" value="python"/>파이썬<br />
+			<input type="submit" value="등록" class="bgcolor-blue" style=font-size:15px; width: 280px;/>
+			<input type="reset" value="취소" class="bgcolor-red" style=font-size:15px; width: 280px;"/>
+		</fieldset>
+	</form>
+</div>
+</div>
+</body>
+</html>

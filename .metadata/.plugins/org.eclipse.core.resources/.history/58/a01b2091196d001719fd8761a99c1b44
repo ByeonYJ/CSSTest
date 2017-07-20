@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Member MyPage</title>
+<link rel="stylesheet" href="../css/member.css" />
+</head>
+<body>
+<div id="wrapper">
+<h1 id="title">Login</h1>
+<a id="go_main" href="..index.html">메인으로 가기</a><br/>
+<hr/>
+	<h1>Hello !!</h1>
+	<a href=".."></a>
+</html>

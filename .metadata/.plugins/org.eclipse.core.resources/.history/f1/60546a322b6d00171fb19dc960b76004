@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Member Login</title>
+<link rel="stylesheet" href="../css/member.css" />
+</head>
+<body>
+<div id="wrapper">
+<h1 id="title">Login</h1>
+<a id="go_main" href="../index.html">메인으로 가기</a><br/>
+<hr />
+<div id="container">
+   <img src="../img/Login.png"/><br />
+   <span id="login_id">ID </span>
+   <input type="text"/> <mark>ID는 숫자포함 8자이내</mark> <br />
+   <span id="login_pass">pass</span> 
+   <input type="text"/> <br />
+   <button id="login_btn" onclick="window.location.href='mypage.html'">Move Index</button>
+   <button id="cancel_btn" onclick="window.location.href''">Move Index</button>
+</div>
+</div>
+</body>
+</html>

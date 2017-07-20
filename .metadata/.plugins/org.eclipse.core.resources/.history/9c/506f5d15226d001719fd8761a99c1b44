@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>성적등록</title>
+<link rel="stylesheet" href="../css/grade.css" />
+</head>
+<body>
+<div id="wrapper">
+	<h1></h1>
+</div>
+</body>
+</html>

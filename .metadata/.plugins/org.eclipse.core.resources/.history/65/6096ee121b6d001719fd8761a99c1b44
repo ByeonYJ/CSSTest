@@ -1,0 +1,9 @@
+@CHARSET "UTF-8";
+@IMPORT "common.css";
+/*index.html*/
+#index-tab{width: 75%;margin:0 auto;}
+#index-tab-tr>td{width: 75%;margin:0 auto;width:30%;text-align: center;border: 1px solid black;}
+.index-ul{width: 200px;}
+.index-ul>li{border: 1px solid black;}
+/*login.html*/
+#login_id{color:blue;}

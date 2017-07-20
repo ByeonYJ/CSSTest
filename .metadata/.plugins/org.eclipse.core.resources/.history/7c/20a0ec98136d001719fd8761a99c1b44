@@ -1,0 +1,5 @@
+@CHARSET "UTF-8";
+#index-tab{width: 75%;}
+.index-ul{width: 200px}
+.index-ul>li{border: 1px solid black;}
+#index-tab-tr>td{width: 75%;margin:0 auto;}

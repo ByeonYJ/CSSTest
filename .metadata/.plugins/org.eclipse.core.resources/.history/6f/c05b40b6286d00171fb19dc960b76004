@@ -1,0 +1,28 @@
+@CHARSET "UTF-8";
+table{border-collapse:collapse;}
+#wrapper{width:100%}
+#go_main{float:right}
+#title{text-align:center;}
+#container{margin:0 auto;width:400;}
+.gms-text-center{text-align:center;}
+.gms-border-black{border:1px solid black;}
+.gms-width-100pro{width:100%;}
+.gms-width-30pro{width:30%;}
+.gms-text-deco-none{text-decoration:none;}
+.gms-margin-auto{margin:0 auto;}
+.gms-list-none{list-style-type:none;}
+.gms-inline-block{display:inline-block;}
+.gms-fload-right{float:right;}
+.gms-bgcolor-blue{background-color:blue;}
+.gms-bgcolor-red{background-color:red;}
+.gms-border-black{border:1px solid black;}
+.gms-textcolor-white{color:white;}
+.gms-textcolor-blue{color:blue}
+.gms-border-collapse{border-collapse: collapse;}
+/*background color*/
+.gms-busy-backgroundcolor-red{background-color: red;}
+.gms-busy-backgroundcolor-blue{background-color: blue;}
+/*font color*/
+.gms-busy-color-red{color: #ce4a4a;}
+.gms-busy-color-blue{color: #3c89bc;}
+.gms-busy-color-white{color: white;}
